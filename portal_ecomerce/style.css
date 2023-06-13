@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  background-color: #1C1C1C;
+}
+.pesquisar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.imglupa{
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+}
+.barra_pesquisa{
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: box-shadow 0.3s;
+  background-color: #f2f2f2;
+}
+#cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 10px;
+}
+
+.card {
+  height: 350px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  background-color: #1C1C1C;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
