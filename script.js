@@ -48,7 +48,7 @@ function filterProducts(searchValue) {
   const cards = document.querySelectorAll(".card");
 
   cards.forEach(function (card) {
-    const title = card.querySelector("a").textContent.toLowerCase();
+    const title = card.querySelector("h1").textContent.toLowerCase();
 
     if (title.includes(searchValue)) {
       card.style.display = "block";
