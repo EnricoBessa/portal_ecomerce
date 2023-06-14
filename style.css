@@ -11,17 +11,39 @@ header {
   font-size: 24px;
   background-color: #1C1C1C;
 }
-.pesquisar{
+
+.botao_voltar {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao_voltar:hover {
+  background-color: #333333;
+}
+
+.pesquisar {
   display: flex;
   flex-direction: row;
   margin-top: 5px;
 }
-.imglupa{
+
+.imglupa {
   margin: 5px;
   width: 25px;
   height: 25px;
 }
-.barra_pesquisa{
+
+.barra_pesquisa {
   padding: 10px;
   font-size: 16px;
   border: none;
@@ -31,6 +53,7 @@ header {
   transition: box-shadow 0.3s;
   background-color: #f2f2f2;
 }
+
 #cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -38,7 +61,7 @@ header {
 }
 
 .card {
-  height: 350px;
+  height: 600px;
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
@@ -53,12 +76,44 @@ header {
   margin-bottom: 10px;
 }
 
-.card a {
+.card h1 {
   display: block;
   font-weight: bold;
+  font-size: 18px;
   color: #333;
   text-decoration: none;
   margin-top: 10px;
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.card p {
+  font-weight: bold;
+  font-size: 12px;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.card a {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 footer {

@@ -12,8 +12,23 @@ fetch("https://fakestoreapi.com/products")
       img.alt = "Imagem do produto";
       card.appendChild(img);
 
+      const title = document.createElement("h1");
+      title.textContent = `${product.title}`;
+      card.appendChild(title);
+
+      const price = document.createElement("h2");
+      price.textContent = `Preço: $${product.price}`;
+      card.appendChild(price);
+
+      const description = document.createElement("p");
+      const maxWords = 30; // Define o número máximo de palavras para o limite
+      const words = product.description.split(" ");
+      const limitedDescription = words.slice(0, maxWords).join(" ");
+      description.textContent = limitedDescription + (words.length > maxWords ? "..." : ""); // Adiciona reticências se houver mais palavras além do limite
+      card.appendChild(description);
+
       const a = document.createElement("a");
-      a.textContent = product.title;
+      a.textContent = "Detalhes";
       a.href = `product.html?id=${product.id}`;
       card.appendChild(a);
 
