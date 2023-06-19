@@ -24,6 +24,7 @@ fetch(`https://fakestoreapi.com/products/${productId}`)
 
     const image = document.createElement('img');
     image.src = product.image;
+    image.classList.add('img-produto'); // Adiciona a classe "img-produto" à imagem
     productDetails.appendChild(image);
 
     const rating = document.createElement('p');
