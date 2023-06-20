@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  background-color: #1C1C1C;
+}
+
+.a_header {
+  color: white;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+
+.botao_voltar {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao_voltar:hover {
+  background-color: #333333;
+}
+
+
+.botao_voltar:hover {
+    background-color: #333333;
+}
+
+.img-produto {
+    width: 100%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  background-color: #1C1C1C;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
